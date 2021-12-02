@@ -1,0 +1,22 @@
+{
+  "work_title" : "Yazılım Geliştirici",
+  "works_title" : "İşler",
+  "contact_me" : "Bana Ulaşın",
+  "turkish" : "Türkçe",
+  "english" : "English",
+  "features" : "Özellikler",
+  "capabilities" : "Kabiliyetler",
+  "used_programming_technologies" : "Kullanılan Teknolojiler",
+  "load_more" : "Daha fazla",
+  "reference" : "Referans",
+
+  "industrial":"Endüstriyel",
+  "web":"Web Uygulaması",
+  "mobile":"Mobil Uygulama",
+  "video":"Video",
+  "photosRepresentative" : "Bu ürün için fotoğraflar temsilidir.",
+  "ios" : "iOS",
+  "android":"Android"
+  
+   
+  }

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded-lg shadow-md;
+}
+
+.btn {
+    @apply py-3 px-6 rounded-full uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
+
+.dark-theme {
+    @apply dark bg-gray-800;
+}
+
+.light-theme {
+    @apply bg-gray-50;
+}
+
+.twitter {
+    fill:#1D9BF0;
+}
+
+.hidden-text 
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+} 
