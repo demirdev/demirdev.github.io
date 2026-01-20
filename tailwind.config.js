@@ -1,10 +1,9 @@
-module.exports = {
+import typography from '@tailwindcss/typography';
+
+export default {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    plugings: [
-      require('@tailwindcss/typography')
-    ],
     extend: {
       colors: {
         primary : '#FFCC00',
@@ -20,11 +19,10 @@ module.exports = {
       fontFamily: {
         body: ['Overpass']
       }
-
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [typography],
 }

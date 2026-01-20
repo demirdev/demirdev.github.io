@@ -13,7 +13,7 @@
 }
 
 .dark-theme {
-    @apply dark bg-gray-800;
+    @apply bg-gray-800;
 }
 
 .light-theme {
